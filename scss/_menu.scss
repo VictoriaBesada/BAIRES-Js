@@ -1,0 +1,57 @@
+/*_____ MENU _________________________________________________________________________________________________________*/
+
+.bannerMenu{
+    @include banner(url(../img/fondoMenu.png), cover, bottom, 70vh);
+    
+    nav{
+        @include nav(black, 90%, 'Alegreya Sans' sans-serif, 1.2rem)
+    }
+
+    img{
+        margin-right: 12rem;
+        margin-left: 2rem;
+        @media all and (min-width: 200px) and (max-width: 600px){
+            margin-right: 0%;
+        }
+    }
+}
+.menu, .combos{ 
+    width: 30rem;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    display: inline-flex;
+    justify-content: center;
+    margin: 7vw;
+
+    img{
+        padding: 1rem;
+    }
+
+
+    h2{
+        font-weight: bolder;
+        text-transform: uppercase;
+        padding: 0px;
+    }
+
+    .btn:hover{
+        background-color: white;
+    }
+
+    @media all and (min-width: 200px) and (max-width: 600px){
+        width: 20rem;
+        display: block;
+        margin: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    @media all and (min-width: 601px) and (max-width: 1300px){
+        width: 40rem;
+        display: block;
+        margin: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+

@@ -1,0 +1,23 @@
+/*_____ SERVICIOS ____________________________________________________________________________________________________*/
+
+.bannerServicios{
+    @include banner(url(../img/fondoServicios.png), cover, bottom, 70vh);
+
+    
+    nav{
+        @include nav(black, 90%, 'Alegreya Sans' sans-serif, 1.2rem)
+    }
+
+    img{
+        margin-right: 12rem;
+        margin-left: 2rem;
+        @media all and (min-width: 200px) and (max-width: 600px){
+            margin-right: 0%;
+        }
+    }
+}
+
+.botonServicios:hover{
+    background-color: white;
+}
+

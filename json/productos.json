@@ -1,0 +1,72 @@
+[
+    {
+        "id":1, 
+        "nombre": "Box Dulce", 
+        "imagen": "boxDulce.jpg", 
+        "descripcion":["La opción mas empalagosa y rica para los más golosos!"], 
+        "precio":2500
+    },
+    {
+        "id":2, 
+        "nombre": "Box Dia de la Madre", 
+        "imagen": "boxMadre.jpg", 
+        "descripcion":["En su día, regalale un desayuno increíble que va a disfrutar mucho."],
+        "precio":3000
+    },
+    {
+        "id":3, 
+        "nombre": "Box Picnic", 
+        "imagen": "picnic.jpg", 
+        "descripcion":["Llegó la primavera y traemos esta opción para compartir al aire libre."], 
+        "precio":"3200"
+    }, 
+    {
+        "id":4, 
+        "nombre": "Merienda para eventos", 
+        "imagen": "meriendaEventos.jpg", 
+        "descripcion":["Nuestra completísima Merienda siempre lista para mejorar tus eventos."], 
+        "precio":15000
+    },
+    {
+        "id":5, 
+        "nombre": "Cafe para eventos", 
+        "imagen": "cafeEventos.jpg", 
+        "descripcion":["Excelente servicio de café para tus eventos."], 
+        "precio":5000
+    },
+    {
+        "id":6, 
+        "nombre": "Box Degustacion", 
+        "imagen": "desgustacion.jpg", 
+        "descripcion":["Diseñada exclusivamente para que no te quedes sin probar nada!"], 
+        "precio":3900
+    },
+    {
+        "id":7, 
+        "nombre": "Mesa dulce para eventos", 
+        "imagen": "mesaDulce.jpg", 
+        "descripcion":["Nuestra completísima Mesa Dulce siempre lista para mejorar tus reuniones."], 
+        "precio":20000
+    },
+    {
+        "id":8, 
+        "nombre": "Tortas para eventos", 
+        "imagen": "tortaEntera.jpg", 
+        "descripcion":["Incluye una exhaustiva variedad de tortas para todos los gustos."], 
+        "precio":20000
+    },
+    {
+        "id":9, 
+        "nombre": "Box Merienda", 
+        "imagen": "merienda.jpg", 
+        "descripcion":["Sorprendé a tus personas favoritas con una merienda llena de amor!"], 
+        "precio":2700
+    },
+    {
+        "id":10, 
+        "nombre": "Desayuno para eventos", 
+        "imagen": "desayunoEventos.jpg", 
+        "descripcion":["Nuestro completísimo Desayuno siempre listo para mejorar tus reuniones."], 
+        "precio":10000
+    }
+]

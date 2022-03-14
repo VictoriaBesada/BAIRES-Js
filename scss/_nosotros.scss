@@ -1,0 +1,86 @@
+/*_____ NOSOTROS _____________________________________________________________________________________________________*/
+
+.bannerNosotros{
+    @include banner(url(../img/fondoNosotros.png), cover, bottom, 70vh);
+    
+    nav{
+        @include nav(black, 90%, 'Alegreya Sans' sans-serif, 1.2rem)
+    }
+
+    img{
+        margin-right: 12rem;
+        margin-left: 2rem;
+        @media all and (min-width: 200px) and (max-width: 600px){
+            margin-right: 0%;
+        }
+    }
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color:#F29F05;
+    font-size: xx-large;
+    padding: 0.8rem;
+    font-weight: bold; 
+}
+.grillaNos{
+    display: grid;
+    grid-template-areas: "historia valores"
+    "mision vision";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    padding: 2rem;
+    font-family: 'Alegreya Sans', sans-serif;
+
+    p{
+        text-align: center;
+    }
+
+    p ol{
+        font-size: 1rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    h2{
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 1.5rem;
+        padding: 0px;
+        text-align: center;
+    }
+
+    h3{
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    @media all and (min-width: 200px) and (max-width: 600px){
+        display: block;
+        font-size: 1rem;
+    }
+}
+.historia{
+grid-area: historia;
+grid-row: 1;
+grid-column: 1;
+}
+.valores{
+grid-area: valores;
+list-style:none;
+grid-row: 1;
+grid-column: 2;
+}
+.mision{
+grid-area: mision;
+grid-row: 2;
+grid-column: 1;
+}
+.vision{
+grid-area: vision;
+grid-row: 2;
+grid-column: 2;
+}

@@ -1,0 +1,44 @@
+/*_____ CONTACTO _____________________________________________________________________________________________________*/
+
+.bannerContacto{
+    @include banner(url(../img/fondoContacto.png), cover, center, 70vh);
+
+    
+    nav{
+        @include nav(black, 90%, 'Alegreya Sans' sans-serif, 1.2rem)
+    }
+
+    img{
+        margin-right: 12rem;
+        margin-left: 2rem;
+        @media all and (min-width: 200px) and (max-width: 600px){
+            margin-right: 0%;
+        }
+    }
+}
+.descripcion{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    
+    @media all and (min-width: 200px) and (max-width: 600px){
+        margin: 2rem;
+    }
+}
+.formulario{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-bottom: 5vw;
+    background-color: #EFEAE2;
+
+    button:hover{
+        background-color:#EFEAE2;
+        color: black;
+    }
+}
+

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cafeteria con pasteleria tipica argentina con sucursales en Valencia y Barcelona.">
+    <meta name="keywords" content="cafeteria, facturas, argentina, valencia, barcelona">
+    <title>BAIRES | Cafetería argentina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/medialuna.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+
+<body>
+  
+  <header class="banner">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+      <div class="container-fluid" >
+        <a href="index.html"><img class="logo" src="img/logo.png" alt="logo" style="width: 14rem;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav navbar-center">
+            <li class="nav-item">
+              <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/menu.html">Menú</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+       </div>
+       <div class="col-md-6 text-white  d-flex align-items-center justify-content-end">
+        <span id="datos_carrito" class="mx-3"></span> <a href="#" id="eliminar_carrito" class="text-white" title="Eliminar Carrito"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+          <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+          <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+        </svg></a>
+      </div>
+      </div>
+    </nav>
+    <!--Título principal-->
+    <section>
+      <h1>¡Bienvenidos a Baires!</h1>
+      <h2>La mejor cafetería argentina de España</h2>
+    </section>
+  </header>
+ 
+  <main class="backgroundColor">
+    <!--Carrusel con ofertas-->
+    <section>
+      <div class="c-wrapper">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/ofertaDesayuno.png" class="d-block w-100" alt="oferta 35% de descuento en desayunos">
+            </div>
+            <div class="carousel-item">
+              <img src="img/ofertaMerienda.png" class="d-block w-100" alt="oferta 35% de descuento en meriendas">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!--Info breve sobre nuestros servicios-->
+    <section class="seccion2">
+      <div class="card" style="width: 20rem;">
+        <img src="img/facturas.jpg" class="card-img-top" alt="facturas argentinas">
+        <div class="card-body">
+          <h3 class="card-title">Nuestras facturas</h5>
+          <p class="card-text">Realizadas día a día con materia prima de excelente calidad y el mejor dulce de leche importado de Argentina.</p>
+          <a href="pages/menu.html" class="btn btn-warning">Conocé la variedad</a>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem;">
+        <img src="img/cafe.png" class="card-img-top" alt="cafe">
+        <div class="card-body">
+          <h3 class="card-title">Los mejores cafés</h5>
+          <p class="card-text">Utilizamos granos de calidad premium y nos enfocamos en resaltar las propiedades deseadas del café y sacar lo mejor de cada grano: la proporción ideal de dulzura y acidez, equilibrio, notas florales y frutales.</p>
+          <a href="pages/menu.html" class="btn btn-warning">Explorá las opciones</a>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem;">
+        <img src="img/barista.png" class="card-img-top" alt="barista">
+        <div class="card-body">
+          <h3 class="card-title">Nuestro equipo</h5>
+          <p class="card-text">En Baires contamos con un equipo ampliamente capacitado para brindar un servicio de excelencia y con muchas ganas de ayudar a que tengas la mejor experiencia con nosotros.</p>
+          <a href="pages/nosotros.html" class="btn btn-warning">Conocenos</a>
+        </div>
+      </div>
+    </section>
+    <div class="listaDeProductos d-grid gap-2 col-6 mx-auto p-5"></div>
+    <!--Mapa de sucursal principal en Valencia-->
+    <section>
+      <div style="text-align: center;">
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.802889607679!2d-0.3820966846325124!3d39.47378147948579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4e70cd82c9%3A0x5aefbae6814a314a!2sPlaza%20de%20la%20Cdad.%20de%20Brujas%2C%2046001%20Valencia%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2sar!4v1633116098840!5m2!1ses-419!2sar" width="85%" height="400vh" style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <!--Links del footer que llevan a diferentes páginas-->
+    <section class="grilla2">
+      <div class="lista1">
+        <h4 class="lista1Titulo">Sobre nosotros</h4>
+        <ul>
+          <a href="./pages/nosotros.html"><li>Quienes somos</li></a>
+          <a href="./pages/servicios.html"><li>Nuestros servicios</li></a>
+          <a href="./pages/menu.html"><li>Nuestro menú</li></a>
+        </ul>
+      </div>
+      <!--Info de contacto-->
+      <div class="lista2">
+        <h4 class="lista2Titulo">Contactanos</h4>
+        <p>Estamos a tu disposición</p>
+        <p>0800-123-4567</p>
+        <p>cafeteria@baires.com</p>
+      </div>
+      <!--Botón de suscripción-->
+      <div class="lista3">
+        <form class="form-inline">
+          <div class="form-group mb-2">
+            <h5 class="lista3Titulo">¡Suscribite a nuestro newsletter!</h5>
+          </div>
+          <div class="suscribirme form-group mx-sm-3 mb-2">
+            <input type="email" class="form-control" placeholder="Ingresá tu e-mail">
+            <button type="submit" class="btn btn-dark mb-2">Suscribirme</button>
+          </div>
+        </form>
+        <!--Redes sociales-->
+        <h5>También podés contactarnos a través de los siguientes canales:</h5>
+        <div class="iconos">
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+          <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram"></i></a>
+          <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp-square"></i></a>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/desafioAjax.js"></script>
+  <script src="js/servicios.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

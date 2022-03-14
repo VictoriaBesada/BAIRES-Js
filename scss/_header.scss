@@ -1,0 +1,48 @@
+@mixin banner($background-image, $background-size, $background-position, $min-height) {
+    background-image: $background-image;
+    background-size: $background-size;
+    background-position: $background-position;
+    min-height: $min-height;
+}
+@mixin nav ($background-color, $opacity, $font-family, $font-size) {
+    background-color: $background-color;
+    opacity: $opacity;
+    font-family: $font-family;
+    font-size: $font-size;
+}
+
+/*_____ HEADER _______________________________________________________________________________________________________*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav-item a{
+    text-decoration: inherit;
+    color: white;
+}
+#navbarNav ul :hover{
+    color: #F29F05;
+}
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+
+    @media all and (min-width: 200px) and (max-width: 991px){
+        position: inherit;
+        left: inherit;
+        transform: inherit;
+    }
+}
+.d-flex button{
+    color:white;
+    margin-right: 2rem;
+}
+.d-flex{
+    @media all and (min-width: 200px) and (max-width: 991px){
+        display: flex;
+        width: 80%;
+        padding-left: 2rem;
+    }
+}

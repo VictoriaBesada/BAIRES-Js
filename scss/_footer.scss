@@ -1,0 +1,165 @@
+/*_____ FOOTER _______________________________________________________________________________________________________*/
+
+.grilla2{
+    display: grid;
+    grid-template-areas: "lista1 lista2 lista3"
+    "lista1 lista2 lista3";
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem;
+    background-color: #F29F05;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 20px;
+    
+
+    @media all and (min-width: 200px) and (max-width: 600px){
+        display: block;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    @media all and (min-width: 601px) and  (max-width: 800px){
+        font-size: 1rem;
+    }
+
+    h5{
+        @media all and (min-width: 200px) and (max-width: 600px){
+            font-size: 1.1em;
+        }
+
+        @media all and (min-width: 601px) and  (max-width: 800px){
+            font-size: 1.2rem;
+        }
+    }
+}
+.lista1{
+    grid-area: lista1;
+    grid-row: 1;
+    grid-column: 1;
+    text-align: left;
+    font-family: 'Alegreya Sans', sans-serif;
+
+    a{
+        color: inherit;
+        text-decoration: inherit;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    @media all and (min-width: 200px) and (max-width: 600px){
+        ul{
+            padding: 0rem;
+            text-align: center;
+        }
+    }
+
+    @media all and (min-width: 601px) and  (max-width: 800px){
+        margin: 0.5rem;
+    }
+}
+.lista2{
+    grid-area: lista2;
+    grid-row: 1;
+    grid-column: 2;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: left;
+
+    p{
+        margin: 0px;
+    }
+
+    @media all and (min-width: 200px) and (max-width: 600px){
+        text-align: center;
+    }
+
+    @media all and (min-width: 601px) and  (max-width: 800px){
+        margin: 0.5rem;
+    }
+}
+.lista3{
+    grid-area: lista3;
+    grid-row: 1;
+    grid-column: 3;
+    font-family: 'Alegreya Sans', sans-serif;
+
+    .suscribirme{
+        text-align: center;
+    }
+
+    .iconos{
+        text-align: center;
+    }
+
+    h5{
+        text-align: center;
+    }
+
+    a{
+        color: inherit;
+        font-size: 2rem;
+        padding-right: 1rem;
+    }
+
+    input{
+        width: fit-content;
+    }
+
+    button, input{
+        display: inline-block;
+        margin: auto;
+    }
+   
+    @media all and (min-width: 601px) and  (max-width: 800px){
+        margin: 0.5rem;
+
+        h5{
+            font-size: 1rem;
+        }
+    }
+}
+.lista1Titulo, .lista2Titulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.lista1Titulo{
+    margin-left: 2rem;
+
+    @media all and (min-width: 200px) and (max-width: 600px){
+        margin: 0rem;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    @media all and (min-width: 601px) and  (max-width: 800px){
+        font-size: 1.2rem;
+    }
+}
+.lista2Titulo{
+    @media all and (min-width: 200px) and (max-width: 600px){
+        font-size: 1.3rem;
+    }
+
+    @media all and (min-width: 601px) and  (max-width: 800px){
+        font-size: 1.2rem;
+    }
+}
+.lista3Titulo{
+    @media all and (min-width: 200px) and (max-width: 600px){
+        margin-top: 1rem;
+    }
+}
+.suscribirme{
+    button{
+        margin: 5px;
+    }
+
+    button:hover{
+        background-color:orange;
+        color: black;
+    }
+}
+.modal-header h6{
+    color: black;
+}

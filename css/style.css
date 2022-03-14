@@ -1,0 +1,691 @@
+/*_____ HEADER _______________________________________________________________________________________________________*/
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-item a {
+  text-decoration: inherit;
+  color: white;
+}
+
+#navbarNav ul :hover {
+  color: #F29F05;
+}
+
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translatex(-50%);
+          transform: translatex(-50%);
+}
+
+@media all and (min-width: 200px) and (max-width: 991px) {
+  .navbar-center {
+    position: inherit;
+    left: inherit;
+    -webkit-transform: inherit;
+            transform: inherit;
+  }
+}
+
+.d-flex button {
+  color: white;
+  margin-right: 2rem;
+}
+
+@media all and (min-width: 200px) and (max-width: 991px) {
+  .d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+    padding-left: 2rem;
+  }
+}
+
+/*_____ INDEX ________________________________________________________________________________________________________*/
+.banner {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#363131)), url(../img/cafeteria.jpg);
+  background-image: linear-gradient(to bottom, transparent, #363131), url(../img/cafeteria.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.banner nav {
+  background-color: black;
+  opacity: 90%;
+  font-family: "Alegreya Sans" sans-serif;
+  font-size: 1.2rem;
+}
+
+.banner img {
+  margin-right: 12rem;
+  margin-left: 2rem;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .banner img {
+    margin-right: 0%;
+  }
+}
+
+.banner h1, .banner h2 {
+  font-family: 'Alegreya Sans', sans-serif;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  margin-top: 14rem;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .banner h1 {
+    font-size: 2rem;
+  }
+}
+
+.banner h2 {
+  margin-top: 0px;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .banner h2 {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+}
+
+.backgroundColor {
+  background-color: #EFEAE2;
+}
+
+.carousel-inner {
+  width: auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-top: 2rem;
+}
+
+.carousel-inner img {
+  width: auto;
+  height: auto;
+}
+
+.seccion2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-family: 'Alegreya Sans', sans-serif;
+  text-align: center;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .seccion2 a {
+    font-size: auto;
+  }
+}
+
+.seccion2 h3 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .seccion2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .seccion2 p {
+    display: none;
+  }
+  .seccion2 h3 {
+    font-size: 1rem;
+  }
+  .seccion2 img {
+    padding: 0.5rem;
+  }
+  .seccion2 .card {
+    margin: 5px;
+  }
+  .seccion2 .card .btn {
+    font-size: 0.8rem;
+  }
+}
+
+.seccion2 .btn:hover {
+  background-color: white;
+}
+
+@media all and (min-width: 601px) and (max-width: 800px) {
+  .seccion2 img {
+    padding: 0.5rem;
+  }
+}
+
+.card {
+  -webkit-box-shadow: 10px 10px 5px grey;
+          box-shadow: 10px 10px 5px grey;
+}
+
+.mapa {
+  margin-bottom: 2rem;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .mapa {
+    margin-bottom: 1rem;
+  }
+}
+
+div.c-wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+/*_____ NOSOTROS _____________________________________________________________________________________________________*/
+.bannerNosotros {
+  background-image: url(../img/fondoNosotros.png);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 70vh;
+}
+
+.bannerNosotros nav {
+  background-color: black;
+  opacity: 90%;
+  font-family: "Alegreya Sans" sans-serif;
+  font-size: 1.2rem;
+}
+
+.bannerNosotros img {
+  margin-right: 12rem;
+  margin-left: 2rem;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .bannerNosotros img {
+    margin-right: 0%;
+  }
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Alegreya Sans', sans-serif;
+  background-color: #F29F05;
+  font-size: xx-large;
+  padding: 0.8rem;
+  font-weight: bold;
+}
+
+.grillaNos {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "historia valores" "mision vision";
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 20px;
+  padding: 2rem;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.grillaNos p {
+  text-align: center;
+}
+
+.grillaNos p ol {
+  font-size: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.grillaNos h2 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 1.5rem;
+  padding: 0px;
+  text-align: center;
+}
+
+.grillaNos h3 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .grillaNos {
+    display: block;
+    font-size: 1rem;
+  }
+}
+
+.historia {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: historia;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+.valores {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: valores;
+  list-style: none;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 2;
+  grid-column: 2;
+}
+
+.mision {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: mision;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+.vision {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: vision;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 2;
+  grid-column: 2;
+}
+
+/*_____ SERVICIOS ____________________________________________________________________________________________________*/
+.bannerServicios {
+  background-image: url(../img/fondoServicios.png);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 70vh;
+}
+
+.bannerServicios nav {
+  background-color: black;
+  opacity: 90%;
+  font-family: "Alegreya Sans" sans-serif;
+  font-size: 1.2rem;
+}
+
+.bannerServicios img {
+  margin-right: 12rem;
+  margin-left: 2rem;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .bannerServicios img {
+    margin-right: 0%;
+  }
+}
+
+.botonServicios:hover {
+  background-color: white;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+
+/*_____ MENU _________________________________________________________________________________________________________*/
+.bannerMenu {
+  background-image: url(../img/fondoMenu.png);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 70vh;
+}
+
+.bannerMenu nav {
+  background-color: black;
+  opacity: 90%;
+  font-family: "Alegreya Sans" sans-serif;
+  font-size: 1.2rem;
+}
+
+.bannerMenu img {
+  margin-right: 12rem;
+  margin-left: 2rem;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .bannerMenu img {
+    margin-right: 0%;
+  }
+}
+
+.menu, .combos {
+  width: 30rem;
+  text-align: center;
+  font-family: 'Alegreya Sans', sans-serif;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 7vw;
+}
+
+.menu img, .combos img {
+  padding: 1rem;
+}
+
+.menu h2, .combos h2 {
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 0px;
+}
+
+.menu .btn:hover, .combos .btn:hover {
+  background-color: white;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .menu, .combos {
+    width: 20rem;
+    display: block;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media all and (min-width: 601px) and (max-width: 1300px) {
+  .menu, .combos {
+    width: 40rem;
+    display: block;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+/*_____ CONTACTO _____________________________________________________________________________________________________*/
+.bannerContacto {
+  background-image: url(../img/fondoContacto.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+}
+
+.bannerContacto nav {
+  background-color: black;
+  opacity: 90%;
+  font-family: "Alegreya Sans" sans-serif;
+  font-size: 1.2rem;
+}
+
+.bannerContacto img {
+  margin-right: 12rem;
+  margin-left: 2rem;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .bannerContacto img {
+    margin-right: 0%;
+  }
+}
+
+.descripcion {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .descripcion {
+    margin: 2rem;
+  }
+}
+
+.formulario {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-bottom: 5vw;
+  background-color: #EFEAE2;
+}
+
+.formulario button:hover {
+  background-color: #EFEAE2;
+  color: black;
+}
+
+/*_____ FOOTER _______________________________________________________________________________________________________*/
+.grilla2 {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "lista1 lista2 lista3" "lista1 lista2 lista3";
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem;
+  background-color: #F29F05;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .grilla2 {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+@media all and (min-width: 601px) and (max-width: 800px) {
+  .grilla2 {
+    font-size: 1rem;
+  }
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .grilla2 h5 {
+    font-size: 1.1em;
+  }
+}
+
+@media all and (min-width: 601px) and (max-width: 800px) {
+  .grilla2 h5 {
+    font-size: 1.2rem;
+  }
+}
+
+.lista1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: lista1;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  text-align: left;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.lista1 a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.lista1 li {
+  list-style: none;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .lista1 ul {
+    padding: 0rem;
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 601px) and (max-width: 800px) {
+  .lista1 {
+    margin: 0.5rem;
+  }
+}
+
+.lista2 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  grid-area: lista2;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  font-family: 'Alegreya Sans', sans-serif;
+  text-align: left;
+}
+
+.lista2 p {
+  margin: 0px;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .lista2 {
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 601px) and (max-width: 800px) {
+  .lista2 {
+    margin: 0.5rem;
+  }
+}
+
+.lista3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 3;
+  grid-area: lista3;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 3;
+  grid-column: 3;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.lista3 .suscribirme {
+  text-align: center;
+}
+
+.lista3 .iconos {
+  text-align: center;
+}
+
+.lista3 h5 {
+  text-align: center;
+}
+
+.lista3 a {
+  color: inherit;
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+
+.lista3 input {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.lista3 button, .lista3 input {
+  display: inline-block;
+  margin: auto;
+}
+
+@media all and (min-width: 601px) and (max-width: 800px) {
+  .lista3 {
+    margin: 0.5rem;
+  }
+  .lista3 h5 {
+    font-size: 1rem;
+  }
+}
+
+.lista1Titulo, .lista2Titulo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.lista1Titulo {
+  margin-left: 2rem;
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .lista1Titulo {
+    margin: 0rem;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+}
+
+@media all and (min-width: 601px) and (max-width: 800px) {
+  .lista1Titulo {
+    font-size: 1.2rem;
+  }
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .lista2Titulo {
+    font-size: 1.3rem;
+  }
+}
+
+@media all and (min-width: 601px) and (max-width: 800px) {
+  .lista2Titulo {
+    font-size: 1.2rem;
+  }
+}
+
+@media all and (min-width: 200px) and (max-width: 600px) {
+  .lista3Titulo {
+    margin-top: 1rem;
+  }
+}
+
+.suscribirme button {
+  margin: 5px;
+}
+
+.suscribirme button:hover {
+  background-color: orange;
+  color: black;
+}
+
+.modal-header h6 {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
